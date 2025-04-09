@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
+    "@react-three/drei": "^9.87.0",
+    "@react-three/fiber": "^8.13.5",
     "autoprefixer": "^10.4.21",
     "next": "^15.2.4",
     "postcss": "^8.5.3",
@@ -19,8 +21,6 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
-    "@react-three/drei": "^10.0.6",
-    "@react-three/fiber": "^9.1.2",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20.17.30",
     "@types/react": "^19.1.0",

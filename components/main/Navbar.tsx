@@ -1,4 +1,4 @@
-import { Socials } from "@/constants";
+import { Socials } from "../../constants";
 import Image from "next/image";
 
 const Navbar = () => {
@@ -30,7 +30,7 @@ const Navbar = () => {
               Skills
             </a>
             <a href="#projects" className="cursor-pointer">
-              Project
+              Projects
             </a>
           </div>
         </div>

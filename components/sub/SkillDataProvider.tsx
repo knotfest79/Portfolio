@@ -1,8 +1,8 @@
 "use client";
 
-import { motion } from "framer-motion";
 import Image from "next/image";
 import { useInView } from "react-intersection-observer";
+import { MotionDiv } from "../Motionelement";
 
 interface Props {
   src: string;
@@ -23,7 +23,7 @@ const SkillDataProvider = ({ src, width, height, index }: Props) => {
 
   const animationDelay = 0.3;
   return (
-    <motion.div
+    <MotionDiv
       ref={ref}
       initial="hidden"
       variants={imageVariants}
@@ -32,7 +32,7 @@ const SkillDataProvider = ({ src, width, height, index }: Props) => {
       transition={{ delay: index * animationDelay }}
     >
       <Image src={src} width={width} height={height} alt="skill image" />
-    </motion.div>
+    </MotionDiv>
   );
 };
 

@@ -8,13 +8,11 @@
     ],
     "allowJs": true,
     "skipLibCheck": true,
- "types": [
-  "node",
-  "@react-three/fiber",
-  "@types/three"
-],
-
-
+    "types": [
+      "node",
+      "@react-three/fiber",
+      "@types/three"
+    ],
     "esModuleInterop": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
@@ -31,15 +29,13 @@
       }
     ]
   },
- 
   "include": [
-  "**/*.ts",
-  "**/*.tsx",
-  "next-env.d.ts",
-  ".next/types/**/*.ts",
-  "global.d.ts" ,
-],
-
+    "**/*.ts",
+    "**/*.tsx",
+    "next-env.d.ts",
+  
+    ".next/types/**/*.ts"
+  ],
   "exclude": [
     "node_modules"
   ]
